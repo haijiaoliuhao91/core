@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@babel/parser':
-        specifier: ^7.24.1
-        version: 7.24.1
+        specifier: ^7.24.4
+        version: 7.24.4
       '@babel/types':
         specifier: ^7.24.0
         version: 7.24.0
@@ -99,8 +99,8 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       magic-string:
-        specifier: ^0.30.8
-        version: 0.30.8
+        specifier: ^0.30.9
+        version: 0.30.9
       markdown-table:
         specifier: ^3.0.3
         version: 3.0.3
@@ -177,8 +177,8 @@ importers:
   packages/compiler-core:
     dependencies:
       '@babel/parser':
-        specifier: ^7.24.1
-        version: 7.24.1
+        specifier: ^7.24.4
+        version: 7.24.4
       '@vue/shared':
         specifier: workspace:*
         version: link:../shared
@@ -208,8 +208,8 @@ importers:
   packages/compiler-sfc:
     dependencies:
       '@babel/parser':
-        specifier: ^7.24.1
-        version: 7.24.1
+        specifier: ^7.24.4
+        version: 7.24.4
       '@vue/compiler-core':
         specifier: workspace:*
         version: link:../compiler-core
@@ -226,8 +226,8 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2
       magic-string:
-        specifier: ^0.30.8
-        version: 0.30.8
+        specifier: ^0.30.9
+        version: 0.30.9
       postcss:
         specifier: ^8.4.38
         version: 8.4.38
@@ -401,8 +401,8 @@ importers:
   packages/vue-compat:
     dependencies:
       '@babel/parser':
-        specifier: ^7.24.1
-        version: 7.24.1
+        specifier: ^7.24.4
+        version: 7.24.4
       estree-walker:
         specifier: ^2.0.2
         version: 2.0.2
@@ -451,7 +451,7 @@ packages:
       '@babel/helper-compilation-targets': 7.22.15
       '@babel/helper-module-transforms': 7.23.3(@babel/core@7.23.5)
       '@babel/helpers': 7.23.5
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/template': 7.22.15
       '@babel/traverse': 7.23.5
       '@babel/types': 7.24.0
@@ -575,8 +575,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/parser@7.24.1:
-    resolution: {integrity: sha512-Zo9c7N3xdOIQrNip7Lc9wvRPzlRtovHVE4lkz8WEDr7uYh/GMQhSiIgFxGIArRHYdJE5kxtZjAf8rT0xhdLCzg==}
+  /@babel/parser@7.24.4:
+    resolution: {integrity: sha512-zTvEBcghmeBma9QIGunWevvBAp4/Qu9Bdq+2k0Ot4fVMD6v3dsC9WOcRSKk7tRRyBM/53yKMJko9xOatGQAwSg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
@@ -587,7 +587,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.23.5
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/types': 7.24.0
     dev: true
 
@@ -601,7 +601,7 @@ packages:
       '@babel/helper-function-name': 7.23.0
       '@babel/helper-hoist-variables': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.6
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/types': 7.24.0
       debug: 4.3.4
       globals: 11.12.0
@@ -1260,7 +1260,7 @@ packages:
       estree-walker: 2.0.2
       glob: 8.1.0
       is-reference: 1.2.1
-      magic-string: 0.30.8
+      magic-string: 0.30.9
       rollup: 4.13.2
     dev: true
 
@@ -1275,7 +1275,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.13.2)
       estree-walker: 2.0.2
-      magic-string: 0.30.8
+      magic-string: 0.30.9
       rollup: 4.13.2
     dev: true
 
@@ -1320,7 +1320,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.13.2)
-      magic-string: 0.30.8
+      magic-string: 0.30.9
       rollup: 4.13.2
     dev: true
 
@@ -1771,7 +1771,7 @@ packages:
   /@vitest/snapshot@1.4.0:
     resolution: {integrity: sha512-saAFnt5pPIA5qDGxOHxJ/XxhMFKkUSBJmVt5VgDsAqPTX6JP326r5C/c9UuCMPoXNzuudTPsYDZCoJ5ilpqG2A==}
     dependencies:
-      magic-string: 0.30.8
+      magic-string: 0.30.9
       pathe: 1.1.1
       pretty-format: 29.7.0
     dev: true
@@ -2355,7 +2355,7 @@ packages:
   /constantinople@4.0.1:
     resolution: {integrity: sha512-vCrqcSIq4//Gx74TXXCGnHpulY1dskqLTFGDmhrGxzeXL8lF8kvXv6mpNWlJj1uD4DW23D4ljAqbY4RRaaUZIw==}
     dependencies:
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/types': 7.24.0
     dev: true
 
@@ -3741,7 +3741,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       '@babel/core': 7.23.5
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.2
       semver: 7.6.0
@@ -4058,8 +4058,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /magic-string@0.30.8:
-    resolution: {integrity: sha512-ISQTe55T2ao7XtlAStud6qwYPZjE4GK1S/BeVPus4jrq6JuOnQ00YKQC581RWhR122W7msZV263KzVeLoqidyQ==}
+  /magic-string@0.30.9:
+    resolution: {integrity: sha512-S1+hd+dIrC8EZqKyT9DstTH/0Z+f76kmmvZnkfQVmOpDEF9iVgdYif3Q/pIWHmCoo59bQVGW0kVL3e2nl+9+Sw==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -4067,7 +4067,7 @@ packages:
   /magicast@0.3.3:
     resolution: {integrity: sha512-ZbrP1Qxnpoes8sz47AM0z08U+jW6TyRgZzcWy3Ma3vDhJttwMwAFDMMQFobwdBxByBD46JYmxRzeF7w2+wJEuw==}
     dependencies:
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/types': 7.24.0
       source-map-js: 1.2.0
     dev: true
@@ -4974,7 +4974,7 @@ packages:
       rollup: ^3.29.4 || ^4
       typescript: ^4.5 || ^5.0
     dependencies:
-      magic-string: 0.30.8
+      magic-string: 0.30.9
       rollup: 4.13.2
       typescript: 5.2.2
     optionalDependencies:
@@ -5756,7 +5756,7 @@ packages:
       execa: 8.0.1
       jsdom: 24.0.0
       local-pkg: 0.5.0
-      magic-string: 0.30.8
+      magic-string: 0.30.9
       pathe: 1.1.1
       picocolors: 1.0.0
       std-env: 3.6.0
@@ -5841,7 +5841,7 @@ packages:
     resolution: {integrity: sha512-RNGKj82nUPg3g5ygxkQl0R937xLyho1J24ItRCBTr/m1YnZkzJy1hUiHUJrc/VlsDQzsCnInEGSg3bci0Lmd4w==}
     engines: {node: '>= 10.0.0'}
     dependencies:
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/types': 7.24.0
       assert-never: 1.2.1
       babel-walk: 3.0.0-canary-5
